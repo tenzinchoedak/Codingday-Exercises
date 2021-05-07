@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+header {
+  border-bottom: 1px solid black;
+  height: 10%;
+}
+main {
+  width: 100%;
+  display: grid;
+  height: 90%;
+  grid-template-columns: 20% 70% 10%;
+}
+.section-1 {
+ border-right: 1px solid black;
+}
+ul li{
+ list-style: none;
+ border-bottom:1px solid black ;
+ margin: 50px 0 50px 0;
+}
+.section-2 {
+  background-color: lightgray;
+  display: grid;  
+}
+.section-post {
+  background-color: white;
+  text-align: center;
+  margin: 50px;
+}
+
+.section-3 div {
+  border: 1px solid black;
+  margin: 50px 30px 30px 30px;
+}
